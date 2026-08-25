@@ -5,6 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
     "seed": "tsx src/scripts/seed.ts",
     "test": "vitest run",
     "test:watch": "vitest"
